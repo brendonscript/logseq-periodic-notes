@@ -1,4 +1,4 @@
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![Github All Releases](https://img.shields.io/github/downloads/brendonscript/logseq-periodic-notes/total.svg)](https://github.com/brendonscript/logseq-periodic-notes/releases)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/brendonscript/logseq-periodic-notes/issues) [![Github All Releases](https://img.shields.io/github/downloads/brendonscript/logseq-periodic-notes/total.svg)](https://github.com/brendonscript/logseq-periodic-notes/releases)
 
 
 # Periodic Notes for Logseq
