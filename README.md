@@ -18,3 +18,6 @@ Periodic notes is not currently available on the Logseq marketplace.
 1. Download the zip file for the release
 2. Unzip into a new folder
 3. Inside Logseq load the folder as an unpacked plugin
+
+## If you want to support my work ❤️
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I1APDZI)
