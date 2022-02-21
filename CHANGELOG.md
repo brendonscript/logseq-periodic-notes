@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/brendon-michael/logseq-periodic-notes/compare/v1.0.0...v2.0.0) (2022-02-21)
+
+
+### Features
+
+* **plugin:** updated and simplified settings to use new 0.6.0 APIs ([#23](https://github.com/brendon-michael/logseq-periodic-notes/issues/23)) ([0d95dce](https://github.com/brendon-michael/logseq-periodic-notes/commit/0d95dce53ac0bb986b94852f3af1728b36c94624)), closes [#20](https://github.com/brendon-michael/logseq-periodic-notes/issues/20) [#7](https://github.com/brendon-michael/logseq-periodic-notes/issues/7)
+
+
+### BREAKING CHANGES
+
+* **plugin:** No longer uses the old settings apis
+
 # 1.0.0 (2022-02-21)
 
 
