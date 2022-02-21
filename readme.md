@@ -2,6 +2,9 @@
 
 Currently is very early stages. Please stay tuned!
 
+## Functionality
+Currently only has implementations for `Open weekly/monthly/yearly note`
+
 ## Usage
 
 Periodic notes is not currently available on the Logseq marketplace.
