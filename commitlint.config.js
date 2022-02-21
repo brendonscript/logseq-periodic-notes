@@ -3,7 +3,7 @@
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
-    'scope-enum': [2, 'always', ['logseq', 'plugin', 'gh']],
+    'scope-enum': [2, 'always', ['logseq', 'plugin', 'gh', 'deps', 'release']],
     'type-enum': [
       2,
       'always',
