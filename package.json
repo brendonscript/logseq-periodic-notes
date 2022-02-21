@@ -19,6 +19,8 @@
     "zustand": "^3.7.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
@@ -35,12 +37,14 @@
     "cross-env": "^7.0.3",
     "eslint": "8.9.0",
     "eslint-plugin-react": "7.28.0",
+    "husky": "^7.0.4",
     "semantic-release": "18.0.1",
     "typescript": "4.5.5",
     "vite": "2.8.3"
   },
   "logseq": {
     "id": "_brendon-michael-logseq-periodic-notes",
-    "icon": "./logo.svg"
+    "icon": "./logo.svg",
+    "settingsVersion": "0.0.1"
   }
 }

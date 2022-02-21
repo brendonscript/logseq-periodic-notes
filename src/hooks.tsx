@@ -1,9 +1,12 @@
 import { PageEntity, BlockEntity } from '@logseq/libs/dist/LSPlugin.user'
 import * as React from 'react'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useMountedState, useWindowSize } from 'react-use'
 import { getDisplayDateFormat, parseJournalDate } from './utils'
 import { triggerIconName } from './constants'
+import useStore, { PeriodicAppState } from './store'
+import shallow from 'zustand/shallow'
+import { useCallback } from 'react'
 
 export const useIconPosition = () => {
   const windowSize = useWindowSize()
@@ -103,30 +106,4 @@ export const useThemeMode = () => {
   }, [isMounted])
 
   return mode
-}
-
-export const useDateFormat = () => {
-  const isMounted = useMountedState()
-  const [dailyDateFormat, setDailyDateFormat] = useState('MMM do, yyyy')
-
-  const [weeklyDateFormat, setWeeklyDateFormat] = useState('YYYY-[W]ww')
-
-  const [monthlyDateFormat, setMonthlyDateFormat] = useState('MM-YYYY')
-
-  const [yearlyDateFormat, setYearlyDateFormat] = useState('YYYY')
-
-  const getFormat = React.useCallback(async () => {
-    setDailyDateFormat(await getDisplayDateFormat())
-  }, [isMounted])
-
-  React.useEffect(() => {
-    getFormat()
-  }, [getFormat])
-
-  return {
-    dailyDateFormat,
-    weeklyDateFormat,
-    monthlyDateFormat,
-    yearlyDateFormat,
-  }
 }

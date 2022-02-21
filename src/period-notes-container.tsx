@@ -1,16 +1,23 @@
 import * as React from 'react'
+import { useEffect } from 'react'
 import { useIconPosition } from './hooks'
 import PeriodicNotes from './periodic-notes'
+import useStore from './store'
 import './tailwind.css'
 
 const PeriodicNotesContainer = React.forwardRef<HTMLDivElement>(({}, ref) => {
-  const { top, left, bottom, right } = useIconPosition()
+  const dispatchGetUserDateFormat = useStore(
+    (state) => state.dispatchGetUserDateFormat
+  )
+  const { top, left } = useIconPosition()
   const styles = {
     top,
     left,
-    // top: withOffset(top, 3),
-    // left: withOffset(left, 0.01),
   }
+
+  useEffect(() => {
+    dispatchGetUserDateFormat()
+  }, [])
 
   return (
     <div

@@ -1,5 +1,6 @@
 import { format, parse } from 'date-fns'
 
+// #region Date Utilities
 export async function getDisplayDateFormat() {
   let format =
     (await logseq.App.getUserConfigs())?.preferredDateFormat ?? 'MMM do, yyyy'
@@ -29,9 +30,7 @@ export const formatAsLocale = (d: Date | string, f: string) => {
 export const parseJournalDate = (d: number) => {
   return parse(`${d}`, 'yyyyMMdd', new Date())
 }
+//#endregion
 
 // @ts-expect-error
 export const css = (t, ...args) => String.raw(t, ...args)
-
-export const withOffset = (pos: number, offset: number = 0.1) =>
-  pos * offset + pos

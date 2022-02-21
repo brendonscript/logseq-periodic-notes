@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ["master"],
+  branches: ["main"],
   plugins: [
     [
       "@semantic-release/commit-analyzer",
@@ -20,13 +20,13 @@ module.exports = {
       "@semantic-release/exec",
       {
         prepareCmd:
-          "zip -qq -r logseq-plugin-heatmap-${nextRelease.version}.zip dist logo.png readme.md LICENSE package.json",
+          "zip -qq -r logseq-plugin-periodic-notes-${nextRelease.version}.zip dist logo.png readme.md LICENSE package.json",
       },
     ],
     [
       "@semantic-release/github",
       {
-        assets: "logseq-plugin-heatmap-*.zip",
+        assets: "logseq-plugin-periodic-notes-*.zip",
       },
     ],
   ],
