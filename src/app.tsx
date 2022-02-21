@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react'
 import { useAppVisible, useThemeMode } from './hooks'
-const PeriodicNotes = React.lazy(() => import('./period-notes-container'))
+const PeriodicNotes = React.lazy(() => import('./periodic-notes-container'))
 
 export default function App() {
   const innerRef = useRef<HTMLDivElement>(null)

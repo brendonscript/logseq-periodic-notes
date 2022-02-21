@@ -6,12 +6,14 @@ import App from './app'
 import { openIconName, triggerIconName } from './constants'
 import { logseq as PL } from '../package.json'
 import { css } from './utils'
+import { buildSettingsSchema } from './logseq-utilities'
 
 const magicKey = `__${PL.id}__loaded__`
 
 function main() {
   const pluginId = logseq.baseInfo.id
   console.info(`#${pluginId}: MAIN`)
+  logseq.useSettingsSchema(buildSettingsSchema())
 
   ReactDOM.render(
     <React.StrictMode>
