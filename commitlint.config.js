@@ -101,18 +101,18 @@ module.exports = {
         description: 'What is the scope of this change',
         enum: {
           client: {
-            description: 'Frontend related',
-            title: 'Client',
+            description: 'Logseq API',
+            title: 'Logseq',
             emoji: '🎨',
           },
           server: {
-            description: 'Backend related',
-            title: 'Server',
+            description: 'Plugin Code',
+            title: 'Plugin',
             emoji: '💻',
           },
           db: {
-            description: 'Database related',
-            title: 'Database',
+            description: 'Project Related',
+            title: 'Project',
             emoji: '🗃',
           },
         },

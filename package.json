@@ -69,6 +69,11 @@
     "icon": "./logo.svg",
     "settingsVersion": "0.0.1"
   },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
   "peerDependencies": {
     "commitizen": "^4.0.3",
     "inquirer": "^8.0.0"
