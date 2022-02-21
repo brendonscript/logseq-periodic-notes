@@ -1,12 +1,9 @@
 import { PageEntity, BlockEntity } from '@logseq/libs/dist/LSPlugin.user'
 import * as React from 'react'
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useMountedState, useWindowSize } from 'react-use'
-import { getDisplayDateFormat, parseJournalDate } from './utils'
+import { parseJournalDate } from './utils'
 import { triggerIconName } from './constants'
-import useStore, { PeriodicAppState } from './store'
-import shallow from 'zustand/shallow'
-import { useCallback } from 'react'
 
 export const useIconPosition = () => {
   const windowSize = useWindowSize()
@@ -26,7 +23,7 @@ export const useIconPosition = () => {
         setWindowRect({ top, bottom, left, right })
       }
     }
-  }, [windowSize])
+  }, [])
 
   console.info(windowRect)
   return windowRect
@@ -37,6 +34,7 @@ export const useAppVisible = () => {
   const isMounted = useMountedState()
   React.useEffect(() => {
     const eventName = 'ui:visible:changed'
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handler = async ({ visible }: any) => {
       if (isMounted()) {
         setVisible(visible)
@@ -55,6 +53,7 @@ export const useSidebarVisible = () => {
   const [visible, setVisible] = useState(false)
   const isMounted = useMountedState()
   React.useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     logseq.App.onSidebarVisibleChanged(({ visible }: any) => {
       if (isMounted()) {
         setVisible(visible)
@@ -97,6 +96,7 @@ export const useThemeMode = () => {
         ?.getAttribute('data-theme') as typeof mode) ??
         (matchMedia('prefers-color-scheme: dark').matches ? 'dark' : 'light')
     )
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     logseq.App.onThemeModeChanged((s: any) => {
       console.log(s)
       if (isMounted()) {

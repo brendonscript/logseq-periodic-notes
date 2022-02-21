@@ -1,0 +1,4 @@
+node_modules
+dist
+release.config.js
+tailwind.config.js

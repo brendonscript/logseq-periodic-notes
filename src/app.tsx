@@ -25,6 +25,7 @@ export default function App() {
         <main
           className={`absolute inset-0 ${themeMode}`}
           onClick={(e) => {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             if (!innerRef.current?.contains(e.target as any)) {
               window.logseq.hideMainUI()
             }

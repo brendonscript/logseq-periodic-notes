@@ -1,6 +1,5 @@
 import create from 'zustand'
 import { getDisplayDateFormat } from './utils'
-import { devtools } from 'zustand/middleware'
 import { logseq as config } from '../package.json'
 
 export type ViewState =
@@ -36,7 +35,7 @@ const defaultSettings = {
 export type DefaultSettingsType = typeof defaultSettings
 
 export const initSettings = () => {
-  let settings = logseq.settings
+  const settings = logseq.settings
 
   const shouldUpdateSettings =
     !settings || settings.settingsVersion != defaultSettings.settingsVersion
@@ -48,7 +47,7 @@ export const initSettings = () => {
   return { ...defaultSettings, ...logseq.settings }
 }
 
-const useStore = create<PeriodicAppState>((set, get) => ({
+const useStore = create<PeriodicAppState>((set) => ({
   settings: initSettings(),
   currentView: 'none',
   previousView: 'none',

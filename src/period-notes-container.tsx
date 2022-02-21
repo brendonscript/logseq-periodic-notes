@@ -5,6 +5,7 @@ import PeriodicNotes from './periodic-notes'
 import useStore from './store'
 import './tailwind.css'
 
+// eslint-disable-next-line no-empty-pattern
 const PeriodicNotesContainer = React.forwardRef<HTMLDivElement>(({}, ref) => {
   const dispatchGetUserDateFormat = useStore(
     (state) => state.dispatchGetUserDateFormat
@@ -17,7 +18,7 @@ const PeriodicNotesContainer = React.forwardRef<HTMLDivElement>(({}, ref) => {
 
   useEffect(() => {
     dispatchGetUserDateFormat()
-  }, [])
+  }, [dispatchGetUserDateFormat])
 
   return (
     <div
