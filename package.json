@@ -1,7 +1,7 @@
 {
   "main": "dist/index.html",
   "name": "logseq-plugin-periodic-notes",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "cross-env browser=none vite",
     "dev:css": "npx tailwindcss -i .\\src\\tailwind-base.css -o .\\src\\tailwind.css --watch",
