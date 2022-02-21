@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react'
 import { useMountedState, useWindowSize } from 'react-use'
 import { parseJournalDate } from './utils'
 import { triggerIconName } from './constants'
+import { SettingsType } from './logseq-utilities'
 
 export const useIconPosition = () => {
   const windowSize = useWindowSize()
@@ -106,4 +107,13 @@ export const useThemeMode = () => {
   }, [isMounted])
 
   return mode
+}
+
+export const useSettings = () => {
+  const [settings, setSettings] = useState(logseq.settings)
+  useMemo(() => {
+    setSettings(logseq.settings)
+  }, [])
+
+  return settings as SettingsType
 }

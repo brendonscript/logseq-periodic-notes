@@ -1,28 +1,32 @@
 import * as React from 'react'
-import { openPage } from './logseq-utils'
-import useStore, { PeriodicAppState } from './store'
 import { formatAsLocale } from './utils'
+import { useSettings } from './hooks'
+import { openPage } from './logseq-utilities'
 
-const settingsSelector = (state: PeriodicAppState) => state.settings
 const PeriodicNotes = () => {
-  const { weeklyDateFormat, monthlyDateFormat, yearlyDateFormat } =
-    useStore(settingsSelector)
+  const settings = useSettings()
   const buttons = [
     {
-      format: weeklyDateFormat,
+      format: settings.weeklyDateFormat,
       label: 'Open Weekly Note',
     },
     {
-      format: monthlyDateFormat,
+      format: settings.monthlyDateFormat,
       label: 'Open Monthly Note',
     },
     {
-      format: yearlyDateFormat,
+      format: settings.yearlyDateFormat,
       label: 'Open Yearly Note',
     },
   ]
+
+  const openSettings = () => {
+    logseq.showSettingsUI()
+  }
+
   return (
     <div id="periodic-notes-inner">
+      <button onClick={() => openSettings()}>Settings</button>
       {buttons.map((b) => {
         return (
           <CurrentNoteButton key={b.label} format={b.format} label={b.label} />
@@ -44,6 +48,5 @@ const CurrentNoteButton = ({ format, label }: CurrentNoteButtonProps) => {
     </div>
   )
 }
-
 
 export default PeriodicNotes

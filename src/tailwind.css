@@ -506,6 +506,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.25rem;
 }
 
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -526,41 +536,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.dark .dark\:bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.dark .dark\:bg-black\/75 {
-  background-color: rgb(0 0 0 / 0.75);
-}
-
 .dark .dark\:bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
-}
-
-.dark .dark\:bg-black\/10 {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.dark .dark\:bg-black\/40 {
-  background-color: rgb(0 0 0 / 0.4);
-}
-
-.dark .dark\:bg-black\/\[\.8\] {
-  background-color: rgb(0 0 0 / .8);
-}
-
-.dark .dark\:bg-black\/\[\.2\] {
-  background-color: rgb(0 0 0 / .2);
-}
-
-.dark .dark\:bg-black\/\[\.15\] {
-  background-color: rgb(0 0 0 / .15);
-}
-
-.dark .dark\:bg-black\/\[\.18\] {
-  background-color: rgb(0 0 0 / .18);
 }
 
 .dark .dark\:text-gray-300 {

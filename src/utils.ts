@@ -2,7 +2,7 @@ import { format, parse } from 'date-fns'
 
 // #region Date Utilities
 export async function getDisplayDateFormat() {
-  let format =
+  const format =
     (await logseq.App.getUserConfigs())?.preferredDateFormat ?? 'MMM do, yyyy'
 
   return format
