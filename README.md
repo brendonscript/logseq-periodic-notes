@@ -5,7 +5,9 @@
 
 Currently is very early stages.
 
-My roadmap for releasing on the Logseq marketplace can view viewed [here](https://github.com/brendon-michael/logseq-periodic-notes/milestone/1)
+My roadmap for releasing on the Logseq marketplace can view viewed [here](https://github.com/brendon-michael/logseq-periodic-notes/milestone/1)! **I plan on getting the first official release out around mid March. I have a few busy weeks coming up so development speed may be a little slow.**
+
+Big thank you to [liamcain](https://github.com/liamcain/obsidian-periodic-notes) for the inspiration with his work on Periodic Notes for Obsidian!
 
 ## Functionality
 Currently only has implementations for `Open weekly/monthly/yearly note`
