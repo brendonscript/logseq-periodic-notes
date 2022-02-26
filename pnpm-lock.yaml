@@ -23,7 +23,7 @@ specifiers:
   date-fns: ^2.25.0
   eslint: 8.10.0
   eslint-config-prettier: 8.4.0
-  eslint-plugin-react: 7.29.1
+  eslint-plugin-react: 7.29.2
   eslint-plugin-react-hooks: 4.3.0
   eslint-plugin-simple-import-sort: 7.0.0
   eslint-plugin-unused-imports: 2.0.0
@@ -70,7 +70,7 @@ devDependencies:
   cross-env: 7.0.3
   eslint: 8.10.0
   eslint-config-prettier: 8.4.0_eslint@8.10.0
-  eslint-plugin-react: 7.29.1_eslint@8.10.0
+  eslint-plugin-react: 7.29.2_eslint@8.10.0
   eslint-plugin-react-hooks: 4.3.0_eslint@8.10.0
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.10.0
   eslint-plugin-unused-imports: 2.0.0_20f00f54a34e817a92f71b13f07164a5
@@ -2207,8 +2207,8 @@ packages:
       eslint: 8.10.0
     dev: true
 
-  /eslint-plugin-react/7.29.1_eslint@8.10.0:
-    resolution: {integrity: sha512-WtzRpHMhsOX05ZrkyaaqmLl2uXGqmYooCfBxftJKlkYdsltiufGgfU7uuoHwR2lBam2Kh/EIVID4aU9e3kbCMA==}
+  /eslint-plugin-react/7.29.2_eslint@8.10.0:
+    resolution: {integrity: sha512-ypEBTKOy5liFQXZWMchJ3LN0JX1uPI6n7MN7OPHKacqXAxq5gYC30TdO7wqGYQyxD1OrzpobdHC3hDmlRWDg9w==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
