@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@commitlint/cli': 16.2.1
+  '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
-  '@commitlint/cz-commitlint': 16.2.1
+  '@commitlint/cz-commitlint': 16.2.3
   '@logseq/libs': latest
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/exec': 6.0.3
@@ -50,9 +50,9 @@ dependencies:
   zustand: 3.7.0_react@17.0.2
 
 devDependencies:
-  '@commitlint/cli': 16.2.1
+  '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
-  '@commitlint/cz-commitlint': 16.2.1_commitizen@4.2.4+inquirer@8.2.1
+  '@commitlint/cz-commitlint': 16.2.3_commitizen@4.2.4+inquirer@8.2.1
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.2
   '@semantic-release/exec': 6.0.3_semantic-release@19.0.2
   '@semantic-release/git': 10.0.1_semantic-release@19.0.2
@@ -359,14 +359,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@commitlint/cli/16.2.1:
-    resolution: {integrity: sha512-zfKf+B9osuiDbxGMJ7bWFv7XFCW8wlQYPtCffNp7Ukdb7mdrep5R9e03vPUZysnwp8NX6hg05kPEvnD/wRIGWw==}
+  /@commitlint/cli/16.2.3:
+    resolution: {integrity: sha512-VsJBQLvhhlOgEfxs/Z5liYuK0dXqLE5hz1VJzLBxiOxG31kL/X5Q4OvK292BmO7IGZcm1yJE3XQPWSiFaEHbWA==}
     engines: {node: '>=v12'}
     hasBin: true
     dependencies:
       '@commitlint/format': 16.2.1
       '@commitlint/lint': 16.2.1
-      '@commitlint/load': 16.2.1
+      '@commitlint/load': 16.2.3
       '@commitlint/read': 16.2.1
       '@commitlint/types': 16.2.1
       lodash: 4.17.21
@@ -393,15 +393,15 @@ packages:
       ajv: 6.12.6
     dev: true
 
-  /@commitlint/cz-commitlint/16.2.1_commitizen@4.2.4+inquirer@8.2.1:
-    resolution: {integrity: sha512-qkluaFI7TpfTSNvcXpv0F7xfjSfi4CRPpmIDRnktphf83Jhsa7/8zzsyy1ISjWOpbCdAatKEP2HfdwXFAFwCXA==}
+  /@commitlint/cz-commitlint/16.2.3_commitizen@4.2.4+inquirer@8.2.1:
+    resolution: {integrity: sha512-G9rRnBJ/5te7RiOzp7EdqII9rQYvtsfsqwMxcoK4B7l0Rc57nFCOlf0e4Bn70E4aOsLeMzNe+PvVVrEsPStEHg==}
     engines: {node: '>=v12'}
     peerDependencies:
       commitizen: ^4.0.3
       inquirer: ^8.0.0
     dependencies:
       '@commitlint/ensure': 16.2.1
-      '@commitlint/load': 16.2.1
+      '@commitlint/load': 16.2.3
       '@commitlint/types': 16.2.1
       chalk: 4.1.2
       commitizen: 4.2.4
@@ -452,8 +452,8 @@ packages:
       '@commitlint/types': 16.2.1
     dev: true
 
-  /@commitlint/load/16.2.1:
-    resolution: {integrity: sha512-oSpz0jTyVI/A1AIImxJINTLDOMB8YF7lWGm+Jg5wVWM0r7ucpuhyViVvpSRTgvL0z09oIxlctyFGWUQQpI42uw==}
+  /@commitlint/load/16.2.3:
+    resolution: {integrity: sha512-Hb4OUlMnBUK6UxJEZ/VJ5k0LocIS7PtEMbRXEAA7eSpOgORIFexC4K/RaRpVd5UTtu3M0ST3ddPPijF9rdW6nw==}
     engines: {node: '>=v12'}
     dependencies:
       '@commitlint/config-validator': 16.2.1
@@ -1730,7 +1730,7 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.3
     optionalDependencies:
-      '@commitlint/load': 16.2.1
+      '@commitlint/load': 16.2.3
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
