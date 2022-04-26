@@ -24,7 +24,7 @@ specifiers:
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-react: 7.29.4
-  eslint-plugin-react-hooks: 4.4.0
+  eslint-plugin-react-hooks: 4.5.0
   eslint-plugin-simple-import-sort: 7.0.0
   eslint-plugin-unused-imports: 2.0.0
   husky: 7.0.4
@@ -71,7 +71,7 @@ devDependencies:
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0_eslint@8.14.0
   eslint-plugin-react: 7.29.4_eslint@8.14.0
-  eslint-plugin-react-hooks: 4.4.0_eslint@8.14.0
+  eslint-plugin-react-hooks: 4.5.0_eslint@8.14.0
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.14.0
   eslint-plugin-unused-imports: 2.0.0_b8847eb0ef3f4354e97e2f7d0b3a686a
   husky: 7.0.4
@@ -2324,8 +2324,8 @@ packages:
       eslint: 8.14.0
     dev: true
 
-  /eslint-plugin-react-hooks/4.4.0_eslint@8.14.0:
-    resolution: {integrity: sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==}
+  /eslint-plugin-react-hooks/4.5.0_eslint@8.14.0:
+    resolution: {integrity: sha512-8k1gRt7D7h03kd+SAAlzXkQwWK22BnK6GKZG+FJA6BAGy22CFvl8kCIXKpVux0cCxMWDQUPqSok0LKaZ0aOcCw==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
