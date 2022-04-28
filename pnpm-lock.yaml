@@ -28,7 +28,7 @@ specifiers:
   eslint-plugin-simple-import-sort: 7.0.0
   eslint-plugin-unused-imports: 2.0.0
   husky: 7.0.4
-  inquirer: 8.2.3
+  inquirer: 8.2.4
   lint-staged: 12.4.1
   prettier: 2.6.2
   react: ^17.0.2
@@ -41,7 +41,7 @@ specifiers:
   zustand: ^3.7.0
 
 dependencies:
-  '@logseq/libs': 0.0.3
+  '@logseq/libs': 0.0.4
   date-fns: 2.28.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -52,7 +52,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 16.2.4
   '@commitlint/config-conventional': 16.2.4
-  '@commitlint/cz-commitlint': 16.2.4_commitizen@4.2.4+inquirer@8.2.3
+  '@commitlint/cz-commitlint': 16.2.4_commitizen@4.2.4+inquirer@8.2.4
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.2
   '@semantic-release/exec': 6.0.3_semantic-release@19.0.2
   '@semantic-release/git': 10.0.1_semantic-release@19.0.2
@@ -75,7 +75,7 @@ devDependencies:
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.14.0
   eslint-plugin-unused-imports: 2.0.0_b8847eb0ef3f4354e97e2f7d0b3a686a
   husky: 7.0.4
-  inquirer: 8.2.3
+  inquirer: 8.2.4
   lint-staged: 12.4.1
   prettier: 2.6.2
   semantic-release: 19.0.2
@@ -501,7 +501,7 @@ packages:
       ajv: 6.12.6
     dev: true
 
-  /@commitlint/cz-commitlint/16.2.4_commitizen@4.2.4+inquirer@8.2.3:
+  /@commitlint/cz-commitlint/16.2.4_commitizen@4.2.4+inquirer@8.2.4:
     resolution: {integrity: sha512-lioE9TF5H36NH/KdTgrmv6CcLWXLcVqFpfZ0oNX+VuPmDVFZ5q4bQ9yQVlMbUX4AjrlsPt68cHH1jK/PoPtBfg==}
     engines: {node: '>=v12'}
     peerDependencies:
@@ -513,7 +513,7 @@ packages:
       '@commitlint/types': 16.2.1
       chalk: 4.1.2
       commitizen: 4.2.4
-      inquirer: 8.2.3
+      inquirer: 8.2.4
       lodash: 4.17.21
       word-wrap: 1.2.3
     transitivePeerDependencies:
@@ -706,8 +706,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@logseq/libs/0.0.3:
-    resolution: {integrity: sha512-t14ZTRinspBhX3bjnTn6unwtpPDwct2Hmn+ad+CslQCHq61QUgRNXSSCB1rz2f/cNgmYqILxxrjAqH6YsF252A==}
+  /@logseq/libs/0.0.4:
+    resolution: {integrity: sha512-DF1aHYR/uZS5l0U1bgkr2x1bePy42h5Rs1T0tybhJyxpSzblrkICORXNACo/HAQPEqARLH1fHGjtdmlauyYW1w==}
     dependencies:
       csstype: 3.0.8
       debug: 4.3.1
@@ -3071,8 +3071,8 @@ packages:
       through: 2.3.8
     dev: true
 
-  /inquirer/8.2.3:
-    resolution: {integrity: sha512-jmoBlmWUChXgVi1wGDZsD7pWCaibJKmL+8+E2jaiWiRj8OlJLwQdQQS2CIjgvdg8UUHX+oyagQKicVVcqwxi9Q==}
+  /inquirer/8.2.4:
+    resolution: {integrity: sha512-nn4F01dxU8VeKfq192IjLsxu0/OmMZ4Lg3xKAns148rCaXP6ntAoEkVYZThWjwON8AlzdZZi6oqnhNbxUG9hVg==}
     engines: {node: '>=12.0.0'}
     dependencies:
       ansi-escapes: 4.3.2
