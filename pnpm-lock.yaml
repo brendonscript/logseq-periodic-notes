@@ -11,7 +11,7 @@ specifiers:
   '@semantic-release/npm': 9.0.1
   '@types/node': 16.11.34
   '@types/react': 17.0.45
-  '@types/react-dom': 17.0.16
+  '@types/react-dom': 17.0.17
   '@types/uuid': 8.3.4
   '@typescript-eslint/eslint-plugin': 5.23.0
   '@typescript-eslint/parser': 5.23.0
@@ -59,7 +59,7 @@ devDependencies:
   '@semantic-release/npm': 9.0.1_semantic-release@19.0.2
   '@types/node': 16.11.34
   '@types/react': 17.0.45
-  '@types/react-dom': 17.0.16
+  '@types/react-dom': 17.0.17
   '@types/uuid': 8.3.4
   '@typescript-eslint/eslint-plugin': 5.23.0_c63nfttrfhylg3zmgcxfslaw44
   '@typescript-eslint/parser': 5.23.0_hcfsmds2fshutdssjqluwm76uu
@@ -1086,8 +1086,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/17.0.16:
-    resolution: {integrity: sha512-DWcXf8EbMrO/gWnQU7Z88Ws/p16qxGpPyjTKTpmBSFKeE+HveVubqGO1CVK7FrwlWD5MuOcvh8gtd0/XO38NdQ==}
+  /@types/react-dom/17.0.17:
+    resolution: {integrity: sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==}
     dependencies:
       '@types/react': 17.0.45
     dev: true
