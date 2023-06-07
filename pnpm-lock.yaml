@@ -27,7 +27,7 @@ specifiers:
   eslint-plugin-react-hooks: 4.6.0
   eslint-plugin-simple-import-sort: 7.0.0
   eslint-plugin-unused-imports: 2.0.0
-  husky: 7.0.4
+  husky: 8.0.3
   inquirer: 8.2.5
   lint-staged: 12.5.0
   prettier: 2.8.8
@@ -74,7 +74,7 @@ devDependencies:
   eslint-plugin-react-hooks: 4.6.0_eslint@8.42.0
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.42.0
   eslint-plugin-unused-imports: 2.0.0_cdc34wiypx6ovfrtrygcq3srse
-  husky: 7.0.4
+  husky: 8.0.3
   inquirer: 8.2.5
   lint-staged: 12.5.0
   prettier: 2.8.8
@@ -3113,9 +3113,9 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/7.0.4:
-    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
-    engines: {node: '>=12'}
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
